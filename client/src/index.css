@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'mono';
+}
+
+.my-swal-button {
+    padding: 0 1rem;
+    margin-right: 0.5rem;
+    height: 2.5rem;
+    border-style: solid;
+    border-color: #E8AA42;
+    border-width: 2px;
+    color: #E8AA42;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 0.5rem;
+  }
+  
+  .my-swal-button:hover {
+
+
+    background-color: #E8AA42;
+    color: #ffffff;
+  }
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2rem;
+  }
+  
+
+  
+  input.popInput[type='text'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 1rem 0;
+  }
+  
+  button.popButton {
+    padding: 10px 20px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 1rem;
+  }
